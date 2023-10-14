@@ -3,11 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".OccasionalFragments.JummaFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="@dimen/_4sdp"
         android:orientation="vertical">
 
         <ScrollView
@@ -22,7 +24,7 @@
                 android:orientation="vertical">
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_one"
+                    android:id="@+id/jumma_one"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/_40sdp"
@@ -30,7 +32,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/asr_one"
+                        android:text="@string/duhr_one"
                         android:padding="@dimen/_20sdp"
                         android:textSize="18sp"
                         android:background="#F8F8F8"
@@ -39,7 +41,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_two"
+                    android:id="@+id/jumma_two"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_20sdp"
@@ -48,7 +50,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:text="@string/asr_two"
+                        android:text="@string/fajar_two"
                         android:padding="@dimen/_20sdp"
                         android:background="#F8F8F8"
                         android:textColor="@color/text_dark"
@@ -57,7 +59,25 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_three"
+                    android:id="@+id/jumma_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginHorizontal="@dimen/_40sdp"
+                    app:cardCornerRadius="@dimen/_8sdp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="@string/duhr_one"
+                        android:padding="@dimen/_20sdp"
+                        android:background="#F8F8F8"
+                        android:textColor="@color/text_dark"
+                        android:textSize="18sp"
+                        android:gravity="center"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/jumma_four"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_20sdp"
@@ -75,43 +95,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_four"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:layout_marginHorizontal="@dimen/_40sdp"
-                    app:cardCornerRadius="@dimen/_8sdp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/duhr_four"
-                        android:padding="@dimen/_20sdp"
-                        android:background="#F8F8F8"
-                        android:textColor="@color/text_dark"
-                        android:textSize="18sp"
-                        android:gravity="center"/>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_five"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_20sdp"
-                    android:layout_marginHorizontal="@dimen/_40sdp"
-                    app:cardCornerRadius="@dimen/_8sdp">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:text="@string/isha_five"
-                        android:padding="@dimen/_20sdp"
-                        android:background="#F8F8F8"
-                        android:textColor="@color/text_dark"
-                        android:textSize="18sp"
-                        android:gravity="center"/>
-                </androidx.cardview.widget.CardView>
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/isha_six"
+                    android:id="@+id/jumma_five"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_20sdp"

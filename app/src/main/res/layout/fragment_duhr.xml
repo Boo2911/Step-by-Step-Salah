@@ -23,7 +23,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/fajar_one"
+                android:text="@string/duhr_one"
                 android:padding="@dimen/_20sdp"
                 android:textSize="18sp"
                 android:background="#F8F8F8"
@@ -42,7 +42,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/fajar_two"
+                android:text="@string/duhr_two"
                 android:padding="@dimen/_20sdp"
                 android:background="#F8F8F8"
                 android:textColor="@color/text_dark"

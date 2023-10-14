@@ -25,4 +25,7 @@
     <string name="isha_five">3 Rakaat Witr\nWajib</string>
     <string name="asr_two">4 Rakaat Fard\nMandatory</string>
     <string name="maghrib_one">3 Rakaat Fard \nMandatory</string>
+    <string name="duhr_one">4 Rakaat Sunnah\nEmphasized or Mu\'akkadah</string>
+    <string name="duhr_two">4 Rakaat Fard\nMandatory</string>
+    <string name="funeral_prayer">Funeral Prayer\nPrayer for the deceased</string>
 </resources>
