@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings"/>
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/share_menu"
+            android:icon="@drawable/menu_share"
+            android:menuCategory="secondary"
+            android:title="@string/share" >
+        </item>
+
+        <item
+            android:id="@+id/rate_us_menu"
+            android:icon="@drawable/rate_menu"
+            android:menuCategory="secondary"
+            android:title="@string/rate_us" >
+        </item>
+    </group>
+</menu>

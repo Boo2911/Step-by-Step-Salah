@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProjectOne</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_ramadan">Ramadan</string>
+    <string name="menu_settings">Settings</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="share">Share</string>
+    <string name="main_text">Step By Step Salah</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fajar_one">2 Rakaat Sunnah\nEmphasized or Mu\'akkadah</string>
+    <string name="fajar_two">2 Rakaat Fard\nMandatory</string>
+    <string name="duhr_four">2 Rakaat Nafi\nMustahab</string>
+    <string name="asr_one">4 Rakaat Sunnah\nGhair Mu\'akkadah</string>
+    <string name="isha_five">3 Rakaat Witr\nWajib</string>
+    <string name="asr_two">4 Rakaat Fard\nMandatory</string>
+    <string name="maghrib_one">3 Rakaat Fard \nMandatory</string>
+</resources>
