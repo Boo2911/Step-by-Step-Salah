@@ -28,4 +28,7 @@
     <string name="duhr_one">4 Rakaat Sunnah\nEmphasized or Mu\'akkadah</string>
     <string name="duhr_two">4 Rakaat Fard\nMandatory</string>
     <string name="funeral_prayer">Funeral Prayer\nPrayer for the deceased</string>
+    <string name="tasbeeh_one">4 Rakaat\nSalaat Tasbeeh</string>
+    <string name="eid_two">Eid-ul-Adhaa\n2 Rakaat Wajib</string>
+    <string name="eid_one">Eid-ul-Fitr\n2 Rakaat Wajib</string>
 </resources>
