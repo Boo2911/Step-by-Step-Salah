@@ -13,7 +13,7 @@ class VideoPlayerActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityVideoPlayerBinding
     private val link = "https://youtu.be/xmIXi-G3k9g?si=Cwy73KrtacvoBCch"
-
+//o check kri work kr k
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityVideoPlayerBinding.inflate(layoutInflater)
